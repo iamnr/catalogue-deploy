@@ -6,10 +6,9 @@ pipeline {
     }
 
     stages {
-
-        stage {
+         stage('deploy') {
             steps {
-                echo "deploying"
+               echo 'deploying'
             }
         }
     }
